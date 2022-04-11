@@ -1,0 +1,39 @@
+button{
+    background-color:rgb(7, 33, 24) ;
+    color: aliceblue;
+}
+
+#para1{
+    color: hotpink;
+}
+#para2{
+    color: indigo;
+}
+
+.content{
+    color: lightblue;
+    background-color: rgb(51, 66, 71);
+}
+
+
+.outer-box{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-top: 40px;
+    border: 3px solid;
+    border-color: red;
+}
+.box{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+.inner-div{
+    margin: 10px;
+    background-color: lightslategray;
+    width: 200px;
+    height: 100px;
+}
