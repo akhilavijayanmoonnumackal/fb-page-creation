@@ -40,6 +40,7 @@ body{
     font-size: 11px;
     text-decoration: none;
     color: #9cb4d8;
+    padding-left: 55px;
 }
 .sub-button{
     background-color: #4267b2;
@@ -109,9 +110,17 @@ body{
     text-decoration: none; 
     height: 20px;
     padding-bottom: 6px;
-    padding-left: 10px;
+    padding-left: 50px;
     padding-right: 7px;
     padding-top: 3.4px;
     color: #fff;
 
+}
+.loginfb{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 18px 0;
+    text-align: center;
+    padding-top: 171px;
+    padding-right: 362px;
 }
