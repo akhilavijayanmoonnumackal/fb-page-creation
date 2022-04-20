@@ -11,16 +11,59 @@
     <div class="main-body">
         <div class="header">
             <p class="para">Employment Application Form</p>
+            <h3 class="para2">Fill the form below accurately indicating your potentials and suitability to job applying for.</h3>
             <img class="image" src="https://static.toiimg.com/photo/msid-72957169/72957169.jpg?1804671" alt="">
-
-
+            
         </div>
-
         <div class="footer">
+            <div class="application_controls">
+                <form class="application_form" action="application_form" id="application-form">
+                    <label class="name"> Name:  </label>                                                            
+                    <input name="fname" class="first_field" type="text" placeholder="First Name">
+                    <input name="sname" class="second_field" type="text" placeholder="Last Name">
 
+                </form>                                                                                           
+            </div>
+            <div class="application">
+                <label class="birth">Birth Date:</label>
+                        <select class="day" name="day">
+                            <option value="">Day</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option>03</option>
+                            <option>04</option>
+                        </select>
+                        <select class="month" name="month">
+                            <option value="">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                        </select>
+                        <select class="year" name="year">
+                            <option value="">Year</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990 ">1990</option>
+                        </select>
+                        <br><br>
         </div>
-
+        <div class="application">
+            <label class="mail">E-mail Address:</label>
+            <input name="emailAddress" class="mail_field" type="text" placeholder="ex: myname@example.com">               
+            <br><br>
+        </div>
+        <div class="application">
+            <label class="add1">Address:</label>
+            <input name="streetname" class="street_field" type="text" placeholder="Street Address">               
+            <br><br>
+            <input name="streetname" class="street_field1" type="text" placeholder="Street Address Line 2">               
+            <br><br>
+        </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

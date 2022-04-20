@@ -5,13 +5,88 @@
 }
 .image{
     width: 350px;
-    margin-block-start: -192px;
+    margin-block-start: -232px;
 }
 .para{
     font-weight: bold;
     font-size: 52px;
     padding-left: 500px;
     padding-top: 80px;
+}
+.para2{
+    padding-left: 488px;
+    padding-top: 0px;
+
+}
+.application_controls{
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.name{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.first_field{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 150px;         
+}
+.second_field{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 13px; 
+}
+.birth{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.day{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 110px 
+}
+.mail{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mail_field{
+    height: 21px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 70px 
+}
+.add1{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.street_field{
+    height: 21px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 130px 
+}
+.street_field1{
+    height: 21px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 610px 
 }
 .footer{
     width: 100%;
