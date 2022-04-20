@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    background-color: aquamarine;
+    height: 262px;
+}
+.image{
+    width: 350px;
+    margin-block-start: -192px;
+}
+.para{
+    font-weight: bold;
+    font-size: 52px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    height: 600px;
+}

@@ -54,47 +54,52 @@
                 <h1>Create an account</h1>
                 <p>It's quick and easy</p>
                 <div class="signup_controls">
-                    <form class="Signup_form" action="hello.html">
+                    <form class="signup_form" action="hello.html" id="signup-form">
                         <div class="signup_field_name">
-                            <input class="first_field" type="text" placeholder="Firstname">
-                            <input class="first_field" type="text" placeholder="Surname">
+                            <input name="fname" class="first_field" type="text" placeholder="Firstname">
+                            <input name="sname" class="first_field" type="text" placeholder="Surname">
                             <br><br>
                        </div>
                        <div class="signup_field">
-                            <input class="mobile_field" type="text" placeholder="Mobile number or email">
+                            <input name="emailAddress" class="mobile_field" type="text" placeholder="Mobile number or email">
                             <br><br>
                        </div>
                        <div class="signup_field">
-                            <input class="password_field" type="password" placeholder="New Password">
+                            <input name="password" class="password_field" type="password" placeholder="New Password">
                             <br><br>
                        </div>
                        <div class="signup_field">
                             <label class="birth">Birthday</label>
-                            <select class="dob">
-                                <option>01</option>
-                                <option>02</option>
+                            <select class="dob" name="day">
+                                <option value="">Day</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
                                 <option>03</option>
                                 <option>04</option>
                             </select>
-                            <select class="dob">
-                                <option>Jan</option>
-                                <option>Feb</option>
-                                <option>March</option>
-                                <option>April</option>
+                            <select class="dob" name="month">
+                                <option value="">Month</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
                             </select>
-                            <select class="dob">
-                                <option>1993</option>
-                                <option>1992</option>
-                                <option>1991</option>
-                                <option>1990</option>
+                            <select class="dob" name="year">
+                                <option value="">Year</option>
+                                <option value="1993">1993</option>
+                                <option value="1992">1992</option>
+                                <option value="1991">1991</option>
+                                <option value="1990 ">1990</option>
                             </select>
                             <br><br>
                         <div class="signup_field">
                             <label class="birth">Gender</label>
                             <input name="gender" type="radio">
                             <label>Female</label>
-                            <input type="radio">
+                            <input name="gender" type="radio">
                             <label>Male</label>
+                            <input name="gender" type="radio">
+                            <label>Custom</label>
                             <br><br>
                         </div>
                         <div>
@@ -104,5 +109,8 @@
                 </div>
             </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -71,7 +71,7 @@ body{
 .left-section{
     width: 50%;
     float: left;
-    padding-left: 120px;
+    padding-left: 134px;
     padding-top: 52px;
 }
 .right-section{
@@ -91,7 +91,7 @@ body{
 }
 .para{
     font-weight: bold;
-    font-size: 47px;
+    font-size: 52px;
 }
 .right-para1{
     font-weight: bold;
@@ -103,15 +103,20 @@ body{
 }
 .first_field{
     height: 21px;
-
+    border-radius: 3px;
+    border: 2px solid gray;
 }
 .mobile_field{
     width: 337px;
     height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
 }
 .password_field{
     width: 337px;
     height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
 }
 .create_an_account{
     background: green;
@@ -122,4 +127,5 @@ body{
     font-weight: bold;
     border-color: #2c5115;
     border: 1px solid;
+    border-radius: 3px;
 }
