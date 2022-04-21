@@ -19,21 +19,20 @@
 
 }
 .application_controls{
-    padding-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .name{
     padding-left: 400px;
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 .first_field{
     height: 21px;
     border-radius: 3px;
     border: 2px solid gray;
     padding-left: 10px; 
-    margin-left: 150px;         
+    margin-left: 250px;         
 }
 .second_field{
     height: 21px;
@@ -52,7 +51,7 @@
     border-radius: 3px;
     border: 2px solid gray;
     padding-left: 10px; 
-    margin-left: 110px 
+    margin-left: 210px 
 }
 .mail{
     padding-left: 400px;
@@ -65,7 +64,7 @@
     border-radius: 3px;
     border: 2px solid gray;
     padding-left: 10px; 
-    margin-left: 70px 
+    margin-left: 170px 
 }
 .add1{
     padding-left: 400px;
@@ -78,7 +77,7 @@
     border-radius: 3px;
     border: 2px solid gray;
     padding-left: 10px; 
-    margin-left: 130px 
+    margin-left: 230px 
 }
 .street_field1{
     height: 21px;
@@ -86,10 +85,150 @@
     border-radius: 3px;
     border: 2px solid gray;
     padding-left: 10px; 
-    margin-left: 610px 
+    margin-left: 710px 
+}
+.city_field1{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 710px;         
+}
+.city_field2{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 13px; 
+}
+.ad{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .footer{
     width: 100%;
     background-color: rgb(204, 204, 204);
-    height: 600px;
+    height: 1000px;
+}
+.ad_field{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 54px; 
+}
+.ad_field1{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 120px; 
+}
+.ad_field2{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 710px; 
+}
+.ad_field3{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 79px; 
+}
+.ad_field4{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 710px; 
+}
+.ad_field5{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 127px; 
+}
+.ad_field6{
+    height: 21px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 710px; 
+}
+.others{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.others_field{
+    height: 21px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 240px 
+}
+.upload{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.resume_field{
+    height: 21px;
+    width: 100px;
+    background: gray;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding-left: 10px; 
+    margin-left: 165px 
+}
+.job{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.skill{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill_field{
+    height: 140px;
+    width: 280px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 100px;
+    margin-left: 130px;
+}
+.training{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.training_field{
+    height: 140px;
+    width: 280px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.submit_field{
+    height: 47px;
+    width: 187px;
+    background: orange;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 645px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 100px;
 }
