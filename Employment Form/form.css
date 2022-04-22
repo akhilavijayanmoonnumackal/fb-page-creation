@@ -22,10 +22,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.application{
+    margin-top: 20px;
+}
 .name{
     padding-left: 400px;
     font-weight: bold;
-    font-size: 20px;    
+    font-size: 20px; 
+    margin-bottom: 10px;   
 }
 .first_field{
     height: 21px;
@@ -65,6 +69,27 @@
     border: 2px solid gray;
     padding-left: 10px; 
     margin-left: 170px 
+}
+.phone{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.phone_field{
+    height: 21px;
+    width: 70px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 170px 
+}
+.phone_field1{
+    height: 21px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding-left: 10px; 
+    margin-left: 10px 
 }
 .add1{
     padding-left: 400px;
@@ -109,7 +134,7 @@
 .footer{
     width: 100%;
     background-color: rgb(204, 204, 204);
-    height: 1000px;
+    height: 1200px;
 }
 .ad_field{
     height: 21px;
@@ -231,4 +256,9 @@
     color: #fff;
     font-weight: bold;
     margin-top: 100px;
+}
+.button_error{
+    color: #FF4E5D;
+    display: inline;
+    text-align: center;
 }

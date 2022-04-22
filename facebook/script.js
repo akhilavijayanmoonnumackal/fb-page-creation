@@ -33,9 +33,8 @@ $(document).ready(function(){
         messages:{
             fname:{
             required:"Enter first name",
-            minlength:"Enter atleast 4 characters"
+            minlength:"Enter atleast 4 characters", 
             }
-        }
-        
+        }                
     })
 })

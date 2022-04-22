@@ -12,20 +12,18 @@
         <div class="header">
             <p class="para">Employment Application Form</p>
             <h3 class="para2">Fill the form below accurately indicating your potentials and suitability to job applying for.</h3>
-            <img class="image" src="https://static.toiimg.com/photo/msid-72957169/72957169.jpg?1804671" alt="">
-            
+            <img class="image" src="https://static.toiimg.com/photo/msid-72957169/72957169.jpg?1804671" alt="">           
         </div>
         <div class="footer">
             <div class="application_controls">
-                <form class="application_form" action="application_form" id="application-form">
-                    <label class="name"> Name:  </label>                                                            
-                    <input name="fname" class="first_field" type="text" placeholder="First Name">
-                    <input name="sname" class="second_field" type="text" placeholder="Last Name">
-
-                </form>                                                                                           
-            </div>
-            <div class="application">
-                <label class="birth">Birth Date:</label>
+                <form class="application_form" action="hello.html" id="application-form">
+                    <div class="application_field_name">
+                        <label class="name"> Name:  </label>                                                            
+                        <input name="fname" class="first_field" type="text" placeholder="First Name">
+                        <input name="sname" class="second_field" type="text" placeholder="Last Name">
+                    </div>                                                                                                                                         
+                    <div class="application">
+                        <label class="birth">Birth Date:</label>
                         <select class="day" name="day">
                             <option value="">Day</option>
                             <option value="1">01</option>
@@ -48,67 +46,76 @@
                             <option value="1990 ">1990</option>
                         </select>
                         <br><br>
+                    </div>
+                    <div class="application">
+                        <label class="phone">Phone Number:</label>
+                        <input name="areaCode" class="phone_field" type="text" placeholder="Area Code">  
+                        <input name="phoneNumber" class="phone_field1" type="text" placeholder="Phone Number">             
+                        <br><br>
+                    </div>
+                    <div class="application">
+                        <label class="mail">E-mail Address:</label>
+                        <input name="emailAddress" class="mail_field" type="text" placeholder="ex: myname@example.com">               
+                        <br><br>
+                    </div>
+                    <div class="application">
+                        <label class="add1">Address:</label>
+                        <input name="streetname" class="street_field" type="text" placeholder="Street Address">               
+                        <br><br>
+                        <input name="streetname" class="street_field1" type="text" placeholder="Street Address Line 2">               
+                        <br><br>                                                         
+                        <input name="cityname" class="city_field1" type="text" placeholder="City">
+                        <input name="cityname" class="city_field2" type="text" placeholder="State/Province">
+                    </div>
+                    <div class="application">
+                        <label class="ad">How were you referred to us?</label>
+                        <input class="ad_field" type="checkbox">  
+                        <label>Walk-In</label>
+                        <input class="ad_field1" type="checkbox">
+                        <label>Employee</label>
+                        <br>
+                        <input class="ad_field2" type="checkbox">
+                        <label>Newspaper Ad</label>
+                        <input class="ad_field3" type="checkbox">             
+                        <label>Facebook</label>             
+                        <br>
+                        <input class="ad_field4" type="checkbox">
+                        <label>Twitter</label>
+                        <input class="ad_field5" type="checkbox">             
+                        <label>Craigslist</label>             
+                        <br>
+                        <input class="ad_field6" type="checkbox">
+                        <label>Other (please specify)</label>
+                    </div>
+                    <div class="application">
+                        <label class="others">Others:</label>
+                        <input class="others_field" type="text">               
+                        <br><br>
+                    </div>
+                    <div class="application">
+                        <label class="upload">Upload Resume:</label>
+                        <input class="resume_field" type="submit" value="Choose File">               
+                        <br><br>
+                    </div>
+                    <div class="application">
+                        <label class="job">Job Skills & Training</label>
+                    </div>
+                    <div class="application">
+                        <label class="skill">Describe your skills:</label>
+                        <input class="skill_field" type="text">
+                    </div>
+                    <div class="application">
+                        <label class="training">Training or Certifications:</label>
+                        <input class="training_field" type="text">
+                    <div class="application">
+                        <button class="submit_field" type="submit">SUBMIT APPLICATION</button>               
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="application">
-            <label class="mail">E-mail Address:</label>
-            <input name="emailAddress" class="mail_field" type="text" placeholder="ex: myname@example.com">               
-            <br><br>
-        </div>
-        <div class="application">
-            <label class="add1">Address:</label>
-            <input name="streetname" class="street_field" type="text" placeholder="Street Address">               
-            <br><br>
-            <input name="streetname" class="street_field1" type="text" placeholder="Street Address Line 2">               
-            <br><br>                                                         
-            <input name="cityname" class="city_field1" type="text" placeholder="City">
-            <input name="cityname" class="city_field2" type="text" placeholder="State/Province">
-        </div>
-        <div class="application">
-            <label class="ad">How were you referred to us?</label>
-            <input class="ad_field" type="checkbox">  
-            <label>Walk-In</label>
-            <input class="ad_field1" type="checkbox">
-            <label>Employee</label>
-            <br>
-            <input class="ad_field2" type="checkbox">
-            <label>Newspaper Ad</label>
-            <input class="ad_field3" type="checkbox">             
-            <label>Facebook</label>             
-            <br>
-            <input class="ad_field4" type="checkbox">
-            <label>Twitter</label>
-            <input class="ad_field5" type="checkbox">             
-            <label>Craigslist</label>             
-            <br>
-            <input class="ad_field6" type="checkbox">
-            <label>Other (please specify)</label>
-        </div>
-        <div class="application">
-            <label class="others">Others:</label>
-            <input class="others_field" type="text">               
-            <br><br>
-        </div>
-        <div class="application">
-            <label class="upload">Upload Resume:</label>
-            <input class="resume_field" type="submit" value="Choose File">               
-            <br><br>
-        </div>
-        <div class="application">
-            <label class="job">Job Skills & Training</label>
-        </div>
-        <div class="application">
-            <label class="skill">Describe your skills:</label>
-            <input class="skill_field" type="text">
-        </div>
-        <div class="application">
-            <label class="training">Training or Certifications:</label>
-            <input class="training_field" type="text">
-        <div class="application">
-            <input class="submit_field" type="submit" value="SUBMIT APPLICATION">               
-            <br><br>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js"></script>                
 </body>
 </html>
